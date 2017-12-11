@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Hello {{ email }}</h1>
+    <hr>
+    <h3>Do you want to see your blogs?</h3>
+    <form id="blogs-boton" action="/blogs">
+        <button type="submit" class="btn btn-success">Go</button>
+    </form>
+{% endblock %}

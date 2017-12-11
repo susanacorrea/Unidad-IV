@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h2>Home page</h2>
+    <hr>
+    <h3>Login page</h3>
+    <form id="login-button" action="/login">
+        <button type="submit" class="btn btn-success">Go</button>
+    </form>
+    <hr>
+    <h3>Register page</h3>
+    <form id="register-button" action="/register">
+        <button type="submit" class="btn btn-success">Go</button>
+    </form>
+    <hr>
+
+</div>
+{% endblock %}
